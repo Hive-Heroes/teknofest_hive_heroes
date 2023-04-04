@@ -2,24 +2,42 @@
 #Acikhack2023
 
 
-# NLP-Turkish-text-classification
+# NLP-Türkçe-Text-Sınıflandırma
 
-In the project we developed for the competition, our aim was to focus on developing Turkish-based natural language processing techniques to identify and classify derogatory language in sentences using natural language processing. Our project involves identifying and analyzing language patterns and contextual cues to accurately identify the presence of sexist, racist, disrespectful or derogatory speech. We also focused on this topic as the resulting technical competence can have significant impacts in various industries such as social media platforms, online advertising and customer service.
+Yarışma için geliştirdiğimiz projede amacımız, doğal dil işlemeyi kullanarak cümlelerdeki aşağılayıcı dili tespit etmek ve sınıflandırmak için Türkçe tabanlı doğal dil işleme teknikleri geliştirmeye odaklanmaktı. Projemiz, cinsiyetçi, ırkçı, saygısız veya aşağılayıcı konuşmaların varlığını doğru bir şekilde belirlemek için dil kalıplarını ve bağlamsal ipuçlarını tanımlamayı ve analiz etmeyi içerir. Ortaya çıkan teknik yeterliliğin sosyal medya platformları, çevrimiçi reklamcılık ve müşteri hizmetleri gibi çeşitli sektörlerde önemli etkileri olabileceğinden bu konuya da odaklandık.
 
 
-We implemented the classification problem with the following steps:
-* Setup: Importing Libraries
-* Loading the data set & Exploratory Data Analysis
-* Text pre-processing
-* Extracting vectors from text (Vectorization)
-* Running ML/DL algorithms
-* Conclusion
+Sınıflandırma problemini aşağıdaki adımlarla gerçekleştirdik:
+* Gerekli kütüphane ve modülleri yükleme
+* Veri setini yükleme ve Keşifsel Veri Analizi
+* Metin ön işleme
+* Metinden vektör çıkarma (Vektörleştirme)
+* ML/DL amodelleri ve uygulamaları
+* Çözüm
 
-### Step 2: Loading the data set & EDA
+### 2.Adım: Veri seti yükleme ve EDA işlemleri
 
-The dataset we used for the project is the (Turkish- ... ) dataset that we use to detect derogatory discourses with natural language processing methods. 
+Proje için kullandığımız veri seti, aşağılayıcı söylemleri doğal dil işleme yöntemleri ile tespit etmek için kullandığımız **teknofest_train_final.csv** veri setidir.
 
-The situation to be determined in the Veristein, there is a derogatory discourse in a text is the situation or not. In other words, it should be guessed as 0 or 1. In addition, if the insulting discourse is predicted, the given subordinate of this discourse breakdown (SEXIST, RACIST, PROFANITY, INSULT) should also be determined. 
+Veri setinde belirlenecek durum, bir metinde aşağılayıcı söylem olup olmadığı durumudur. Yani 0 veya 1 olarak tahmin edilmelidir. Ayrıca aşağılayıcı söylem tahmin ediliyorsa bu söylem dökümünün verilen alt yapısı da (CİNSİYETÇİ, IRKÇI, KÜFÜR, KÜÇÜK) belirlenmelidir.
+
+### 3.Adım: Preprocessing İşlemleri
+
+Text processingte önemli yere sahip olan özel karakterleri silme, tokenizasyon, verilen metinlerden Türkçe stopwordsleri çıkarma, lemmatizasyon işelmleri gibi farklı işelmeleri ilgili kütüphaneler yardımıyla gerçekleştirdik.
+
+### 4.Adım: Vektörizasyon
+
+Bu adımda TF-IDF gibi yöntemler ile metinleri vektörize ederek modeller için uygun hale getirdik.
+
+### 5.Adım: Modeller ve iyileştirmeler
+
+Veri setine önce geleneksel klasifikasyon modellerini, daha sonrasında ise BERT gibi gelişmiş dil modelleri uygulayarak modellerin başarısını test ettik ve karşılaştırmalar yaptık. Bu karşılaştırmalar sonucunda birkaç farklı modelin bir arada kullanılabildiği ensemble bir yaklaşım sergiledik. Modellerin başarılarını etkileyen faktörleri inceleyerek modellerde iyileştirmeler yapmaya çalıştık. 
+
+### 6. Adım: Sonuç
+
+Son olarak çıktılarımız doğrultusunda, yaptığımız projenin  Telco ve OTT sektöründe olası kulanım alanlarını araştırarak ve yeni fikirler üreterek bunları bir use case modeline aktardık.
+
+
 
 
 
