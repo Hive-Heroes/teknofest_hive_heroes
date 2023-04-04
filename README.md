@@ -38,6 +38,17 @@ Veri setine önce geleneksel klasifikasyon modellerini, daha sonrasında ise BER
 Son olarak çıktılarımız doğrultusunda, yaptığımız projenin  Telco ve OTT sektöründe olası kulanım alanlarını araştırarak ve yeni fikirler üreterek bunları bir use case modeline aktardık.
 
 
+## Gerekli kütüphaneler: 
+> pandas version ..
+
+> 
+
+> 
+
+> 
+
+> 
+
 
 
 
