@@ -5,6 +5,9 @@
 # NLP-Türkçe-Text-Sınıflandırma
 
 ### Takım Üyeleri
+Berfin Duman
+
+Bike Sönmez
 
 
 TeknoFest 2023 Türkçe Doğal Dil İşleme Yarışması için oluşturduğumuz bu proje aşağılayıcı söylem içeren verilerin tespiti, sınıflandırılması ve elde edilen çıktıların endüstride bir use case olarak kullanılması fikrinden oluşuyor. 
@@ -37,7 +40,8 @@ Bu adımda TF-IDF gibi yöntemler ile metinleri vektörize ederek modeller için
 
 ### 5.Adım: Modeller ve iyileştirmeler
 
-Veri setine önce geleneksel klasifikasyon modellerini, daha sonrasında ise BERT gibi gelişmiş dil modelleri uygulayarak modellerin başarısını test ettik ve karşılaştırmalar yaptık. Bu karşılaştırmalar sonucunda birkaç farklı modelin bir arada kullanılabildiği ensemble bir yaklaşım sergiledik. Modellerin başarılarını etkileyen faktörleri inceleyerek modellerde iyileştirmeler yapmaya çalıştık. 
+Veri setine önce geleneksel sınıflandırma modellerini (Bernoulli Naive Bayes Classifier, Support Vector Machine, Logistic Regression, XGBClassifier, vb.)
+daha sonrasında ise BERT, LSTM - BİLSTM gibi gelişmiş dil modellerinin bir kombinasyonundan oluşan ensemble bir model uygulayarak modellerin başarısını test ettik ve karşılaştırmalar yaptık. Bu karşılaştırmalar sonucunda birkaç farklı modelin bir arada kullanılabildiği ensemble bir yaklaşım sergiledik. Modellerin başarılarını etkileyen faktörleri inceleyerek modellerde iyileştirmeler yapmaya çalıştık. 
 
 ### 6. Adım: Sonuç
 
