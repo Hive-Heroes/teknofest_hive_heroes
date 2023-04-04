@@ -4,6 +4,12 @@
 
 # NLP-Türkçe-Text-Sınıflandırma
 
+### Takım Üyeleri
+
+
+TeknoFest 2023 Türkçe Doğal Dil İşleme Yarışması için oluşturduğumuz bu proje aşağılayıcı söylem içeren verilerin tespiti, sınıflandırılması ve elde edilen çıktıların endüstride bir use case olarak kullanılması fikrinden oluşuyor. 
+
+
 Yarışma için geliştirdiğimiz projede amacımız, doğal dil işlemeyi kullanarak cümlelerdeki aşağılayıcı dili tespit etmek ve sınıflandırmak için Türkçe tabanlı doğal dil işleme teknikleri geliştirmeye odaklanmaktı. Projemiz, cinsiyetçi, ırkçı, saygısız veya aşağılayıcı konuşmaların varlığını doğru bir şekilde belirlemek için dil kalıplarını ve bağlamsal ipuçlarını tanımlamayı ve analiz etmeyi içerir. Ortaya çıkan teknik yeterliliğin sosyal medya platformları, çevrimiçi reklamcılık ve müşteri hizmetleri gibi çeşitli sektörlerde önemli etkileri olabileceğinden bu konuya da odaklandık.
 
 
