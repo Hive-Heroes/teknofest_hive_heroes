@@ -43,21 +43,30 @@ Bu adımda TF-IDF gibi yöntemler ile metinleri vektörize ederek modeller için
 Veri setine önce geleneksel sınıflandırma modellerini (Bernoulli Naive Bayes Classifier, Support Vector Machine, Logistic Regression, XGBClassifier, vb.)
 daha sonrasında ise BERT, LSTM - BİLSTM gibi gelişmiş dil modellerinin bir kombinasyonundan oluşan ensemble bir model uygulayarak modellerin başarısını test ettik ve karşılaştırmalar yaptık. Bu karşılaştırmalar sonucunda birkaç farklı modelin bir arada kullanılabildiği ensemble bir yaklaşım sergiledik. Modellerin başarılarını etkileyen faktörleri inceleyerek modellerde iyileştirmeler yapmaya çalıştık. 
 
+
+
 ### 6. Adım: Sonuç
 
 Son olarak çıktılarımız doğrultusunda, yaptığımız projenin  Telco ve OTT sektöründe olası kulanım alanlarını araştırarak ve yeni fikirler üreterek bunları bir use case modeline aktardık.
 
+Macro-F1 : 0.94 
+
 
 ## Gerekli kütüphaneler: 
-> pandas version ..
+> gradio              3.24.1
 
-> 
+> pandas              1.5.2
 
-> 
+> nltk                3.7
 
-> 
+> session_info        1.0.0
 
-> 
+> sklearn             1.2.2
+
+> torch               1.13.1+cpu
+
+>transformers        4.26.1
+
 
 
 
