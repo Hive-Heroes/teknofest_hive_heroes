@@ -1,6 +1,9 @@
 # teknofest_hive_heroes
 #Acikhack2023
 
+Modelimize, dökümantasyonumuza, eğitim dosyamız ve eğitim verimize huggingface üzerinden ulaşabilirsiniz: https://huggingface.co/berfinduman/bert_ensemble 
+
+
 
 # NLP-Türkçe-Text-Sınıflandırma
 
