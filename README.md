@@ -3,7 +3,7 @@
 
 Modelimize, dökümantasyonumuza, eğitim dosyamız ve eğitim verimize huggingface üzerinden ulaşabilirsiniz: https://huggingface.co/berfinduman/bert_ensemble 
 
-
+Sunumumuza ayrıca bu link üzerinden animasyonlu haliyle ulaşabilirsiniz: https://www.canva.com/design/DAFfK3u83cc/5gx4ht3fepqL2ifwbJEFjA/edit?utm_content=DAFfK3u83cc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton 
 
 # NLP-Türkçe-Text-Sınıflandırma
 
