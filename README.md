@@ -52,7 +52,7 @@ daha sonrasında ise BERT, LSTM - BİLSTM gibi gelişmiş dil modellerinin bir k
 
 Son olarak çıktılarımız doğrultusunda, yaptığımız projenin  Telco ve OTT sektöründe olası kulanım alanlarını araştırarak ve yeni fikirler üreterek bunları bir use case modeline aktardık.
 
-Macro-F1 : 0.95 
+Macro-F1 : 0.98 
 
 
 ## Gerekli kütüphaneler: 
