@@ -47,8 +47,8 @@ daha sonrasında ise BERT, LSTM - BİLSTM gibi gelişmiş dil modellerinin bir k
 
 
 
-### 6. Adım: Sonuç
-![image](https://github.com/Hive-Heroes/teknofest_hive_heroes/assets/64483224/32f44d07-b6bc-4050-888c-0a1a0d99a5a6)
+### 6. Adım: Değerlendirme ve Sonuç
+![image](https://github.com/Hive-Heroes/teknofest_hive_heroes/assets/64483224/63cc65a6-8aa7-4189-83e5-914e453ed588)
 
 Son olarak çıktılarımız doğrultusunda, yaptığımız projenin  Telco ve OTT sektöründe olası kulanım alanlarını araştırarak ve yeni fikirler üreterek bunları bir use case modeline aktardık.
 
