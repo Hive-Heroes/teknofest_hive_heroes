@@ -1,5 +1,4 @@
 # teknofest_hive_heroes
-#Acikhack2023
 
 Modelimize, dökümantasyonumuza, eğitim dosyamız ve eğitim verimize huggingface üzerinden ulaşabilirsiniz: https://huggingface.co/berfinduman/bert_ensemble 
 
@@ -49,11 +48,9 @@ daha sonrasında ise BERT, LSTM - BİLSTM gibi gelişmiş dil modellerinin bir k
 
 
 ### 6. Adım: Sonuç
+![image](https://github.com/Hive-Heroes/teknofest_hive_heroes/assets/64483224/32f44d07-b6bc-4050-888c-0a1a0d99a5a6)
 
 Son olarak çıktılarımız doğrultusunda, yaptığımız projenin  Telco ve OTT sektöründe olası kulanım alanlarını araştırarak ve yeni fikirler üreterek bunları bir use case modeline aktardık.
-
-Macro-F1 : 0.98 
-
 
 ## Gerekli kütüphaneler: 
 > gradio              3.24.1
